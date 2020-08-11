@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA66AF6324E1D4DA0029A7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66AF6224E1D4DA0029A7B3 /* AppDelegate.swift */; };
+		EA66AF6524E1D4DA0029A7B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66AF6424E1D4DA0029A7B3 /* SceneDelegate.swift */; };
+		EA66AF6724E1D4DA0029A7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66AF6624E1D4DA0029A7B3 /* ViewController.swift */; };
+		EA66AF6A24E1D4DA0029A7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66AF6824E1D4DA0029A7B3 /* Main.storyboard */; };
+		EA66AF6C24E1D4DC0029A7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA66AF6B24E1D4DC0029A7B3 /* Assets.xcassets */; };
+		EA66AF6F24E1D4DC0029A7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66AF6D24E1D4DC0029A7B3 /* LaunchScreen.storyboard */; };
+		EA66AF7A24E1D4DD0029A7B3 /* Aisha_s_storig_defaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66AF7924E1D4DD0029A7B3 /* Aisha_s_storig_defaultTests.swift */; };
+		EA66AF8524E1D4DD0029A7B3 /* Aisha_s_storig_defaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66AF8424E1D4DD0029A7B3 /* Aisha_s_storig_defaultUITests.swift */; };
+		EA66AF9324E1D53B0029A7B3 /* aisha.png in Resources */ = {isa = PBXBuildFile; fileRef = EA66AF9224E1D53B0029A7B3 /* aisha.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA66AF7624E1D4DD0029A7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA66AF5724E1D4DA0029A7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA66AF5E24E1D4DA0029A7B3;
+			remoteInfo = "Aisha's storig default";
+		};
+		EA66AF8124E1D4DD0029A7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA66AF5724E1D4DA0029A7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA66AF5E24E1D4DA0029A7B3;
+			remoteInfo = "Aisha's storig default";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA66AF5F24E1D4DA0029A7B3 /* Aisha's storig default.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aisha's storig default.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA66AF6224E1D4DA0029A7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA66AF6424E1D4DA0029A7B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA66AF6624E1D4DA0029A7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA66AF6924E1D4DA0029A7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA66AF6B24E1D4DC0029A7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA66AF6E24E1D4DC0029A7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA66AF7024E1D4DC0029A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66AF7524E1D4DD0029A7B3 /* Aisha's storig defaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aisha's storig defaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA66AF7924E1D4DD0029A7B3 /* Aisha_s_storig_defaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aisha_s_storig_defaultTests.swift; sourceTree = "<group>"; };
+		EA66AF7B24E1D4DD0029A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66AF8024E1D4DD0029A7B3 /* Aisha's storig defaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aisha's storig defaultUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA66AF8424E1D4DD0029A7B3 /* Aisha_s_storig_defaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aisha_s_storig_defaultUITests.swift; sourceTree = "<group>"; };
+		EA66AF8624E1D4DD0029A7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66AF9224E1D53B0029A7B3 /* aisha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aisha.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA66AF5C24E1D4DA0029A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7224E1D4DD0029A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7D24E1D4DD0029A7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA66AF5624E1D4DA0029A7B3 = {
+			isa = PBXGroup;
+			children = (
+				EA66AF6124E1D4DA0029A7B3 /* Aisha's storig default */,
+				EA66AF7824E1D4DD0029A7B3 /* Aisha's storig defaultTests */,
+				EA66AF8324E1D4DD0029A7B3 /* Aisha's storig defaultUITests */,
+				EA66AF6024E1D4DA0029A7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA66AF6024E1D4DA0029A7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA66AF5F24E1D4DA0029A7B3 /* Aisha's storig default.app */,
+				EA66AF7524E1D4DD0029A7B3 /* Aisha's storig defaultTests.xctest */,
+				EA66AF8024E1D4DD0029A7B3 /* Aisha's storig defaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA66AF6124E1D4DA0029A7B3 /* Aisha's storig default */ = {
+			isa = PBXGroup;
+			children = (
+				EA66AF6224E1D4DA0029A7B3 /* AppDelegate.swift */,
+				EA66AF6424E1D4DA0029A7B3 /* SceneDelegate.swift */,
+				EA66AF6624E1D4DA0029A7B3 /* ViewController.swift */,
+				EA66AF6824E1D4DA0029A7B3 /* Main.storyboard */,
+				EA66AF9224E1D53B0029A7B3 /* aisha.png */,
+				EA66AF6B24E1D4DC0029A7B3 /* Assets.xcassets */,
+				EA66AF6D24E1D4DC0029A7B3 /* LaunchScreen.storyboard */,
+				EA66AF7024E1D4DC0029A7B3 /* Info.plist */,
+			);
+			path = "Aisha's storig default";
+			sourceTree = "<group>";
+		};
+		EA66AF7824E1D4DD0029A7B3 /* Aisha's storig defaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA66AF7924E1D4DD0029A7B3 /* Aisha_s_storig_defaultTests.swift */,
+				EA66AF7B24E1D4DD0029A7B3 /* Info.plist */,
+			);
+			path = "Aisha's storig defaultTests";
+			sourceTree = "<group>";
+		};
+		EA66AF8324E1D4DD0029A7B3 /* Aisha's storig defaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA66AF8424E1D4DD0029A7B3 /* Aisha_s_storig_defaultUITests.swift */,
+				EA66AF8624E1D4DD0029A7B3 /* Info.plist */,
+			);
+			path = "Aisha's storig defaultUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA66AF5E24E1D4DA0029A7B3 /* Aisha's storig default */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA66AF8924E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig default" */;
+			buildPhases = (
+				EA66AF5B24E1D4DA0029A7B3 /* Sources */,
+				EA66AF5C24E1D4DA0029A7B3 /* Frameworks */,
+				EA66AF5D24E1D4DA0029A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aisha's storig default";
+			productName = "Aisha's storig default";
+			productReference = EA66AF5F24E1D4DA0029A7B3 /* Aisha's storig default.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA66AF7424E1D4DD0029A7B3 /* Aisha's storig defaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA66AF8C24E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig defaultTests" */;
+			buildPhases = (
+				EA66AF7124E1D4DD0029A7B3 /* Sources */,
+				EA66AF7224E1D4DD0029A7B3 /* Frameworks */,
+				EA66AF7324E1D4DD0029A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA66AF7724E1D4DD0029A7B3 /* PBXTargetDependency */,
+			);
+			name = "Aisha's storig defaultTests";
+			productName = "Aisha's storig defaultTests";
+			productReference = EA66AF7524E1D4DD0029A7B3 /* Aisha's storig defaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA66AF7F24E1D4DD0029A7B3 /* Aisha's storig defaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA66AF8F24E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig defaultUITests" */;
+			buildPhases = (
+				EA66AF7C24E1D4DD0029A7B3 /* Sources */,
+				EA66AF7D24E1D4DD0029A7B3 /* Frameworks */,
+				EA66AF7E24E1D4DD0029A7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA66AF8224E1D4DD0029A7B3 /* PBXTargetDependency */,
+			);
+			name = "Aisha's storig defaultUITests";
+			productName = "Aisha's storig defaultUITests";
+			productReference = EA66AF8024E1D4DD0029A7B3 /* Aisha's storig defaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA66AF5724E1D4DA0029A7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Aisha Mohammed";
+				TargetAttributes = {
+					EA66AF5E24E1D4DA0029A7B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EA66AF7424E1D4DD0029A7B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EA66AF5E24E1D4DA0029A7B3;
+					};
+					EA66AF7F24E1D4DD0029A7B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EA66AF5E24E1D4DA0029A7B3;
+					};
+				};
+			};
+			buildConfigurationList = EA66AF5A24E1D4DA0029A7B3 /* Build configuration list for PBXProject "Aisha's storig default" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA66AF5624E1D4DA0029A7B3;
+			productRefGroup = EA66AF6024E1D4DA0029A7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA66AF5E24E1D4DA0029A7B3 /* Aisha's storig default */,
+				EA66AF7424E1D4DD0029A7B3 /* Aisha's storig defaultTests */,
+				EA66AF7F24E1D4DD0029A7B3 /* Aisha's storig defaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA66AF5D24E1D4DA0029A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA66AF6F24E1D4DC0029A7B3 /* LaunchScreen.storyboard in Resources */,
+				EA66AF6C24E1D4DC0029A7B3 /* Assets.xcassets in Resources */,
+				EA66AF9324E1D53B0029A7B3 /* aisha.png in Resources */,
+				EA66AF6A24E1D4DA0029A7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7324E1D4DD0029A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7E24E1D4DD0029A7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA66AF5B24E1D4DA0029A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA66AF6724E1D4DA0029A7B3 /* ViewController.swift in Sources */,
+				EA66AF6324E1D4DA0029A7B3 /* AppDelegate.swift in Sources */,
+				EA66AF6524E1D4DA0029A7B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7124E1D4DD0029A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA66AF7A24E1D4DD0029A7B3 /* Aisha_s_storig_defaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA66AF7C24E1D4DD0029A7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA66AF8524E1D4DD0029A7B3 /* Aisha_s_storig_defaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA66AF7724E1D4DD0029A7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA66AF5E24E1D4DA0029A7B3 /* Aisha's storig default */;
+			targetProxy = EA66AF7624E1D4DD0029A7B3 /* PBXContainerItemProxy */;
+		};
+		EA66AF8224E1D4DD0029A7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA66AF5E24E1D4DA0029A7B3 /* Aisha's storig default */;
+			targetProxy = EA66AF8124E1D4DD0029A7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA66AF6824E1D4DA0029A7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA66AF6924E1D4DA0029A7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA66AF6D24E1D4DC0029A7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA66AF6E24E1D4DC0029A7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA66AF8724E1D4DD0029A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA66AF8824E1D4DD0029A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA66AF8A24E1D4DD0029A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig default/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-default";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA66AF8B24E1D4DD0029A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig default/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-default";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA66AF8D24E1D4DD0029A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig defaultTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-defaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha's storig default.app/Aisha's storig default";
+			};
+			name = Debug;
+		};
+		EA66AF8E24E1D4DD0029A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig defaultTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-defaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aisha's storig default.app/Aisha's storig default";
+			};
+			name = Release;
+		};
+		EA66AF9024E1D4DD0029A7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig defaultUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-defaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aisha's storig default";
+			};
+			name = Debug;
+		};
+		EA66AF9124E1D4DD0029A7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aisha's storig defaultUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aisha.Aisha-s-storig-defaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aisha's storig default";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA66AF5A24E1D4DA0029A7B3 /* Build configuration list for PBXProject "Aisha's storig default" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA66AF8724E1D4DD0029A7B3 /* Debug */,
+				EA66AF8824E1D4DD0029A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA66AF8924E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig default" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA66AF8A24E1D4DD0029A7B3 /* Debug */,
+				EA66AF8B24E1D4DD0029A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA66AF8C24E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig defaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA66AF8D24E1D4DD0029A7B3 /* Debug */,
+				EA66AF8E24E1D4DD0029A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA66AF8F24E1D4DD0029A7B3 /* Build configuration list for PBXNativeTarget "Aisha's storig defaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA66AF9024E1D4DD0029A7B3 /* Debug */,
+				EA66AF9124E1D4DD0029A7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA66AF5724E1D4DA0029A7B3 /* Project object */;
+}
